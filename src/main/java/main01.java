@@ -13,5 +13,6 @@ public class main01 {
         String s = "{\"name\":\"peter\"}";
         JSONObject object = JSON.parseObject(s);
         System.out.println(object.get("name"));
+        System.out.println(object.get("name"));
     }
 }
